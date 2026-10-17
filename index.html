@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Discord bot and community tool project concepts by ynprysk." /><meta name="theme-color" content="#1c1e1a" />
+    <title>Selected work — ynprysk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" /><script src="../script.js" defer></script>
+  </head>
+  <body class="dark-theme">
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="../" aria-label="ynprysk home">ynprysk<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">Toggle menu</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="./" aria-current="page">Work</a><a href="../about/">About</a><a href="../contact/">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 15.2A8.7 8.7 0 0 1 8.8 3.9 8.8 8.8 0 1 0 20.1 15.2Z" /></svg></button>
+        <button class="command-trigger" type="button" aria-label="Open quick navigation"><span>Quick nav</span><kbd>/</kbd></button>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero page-wrap"><p class="eyebrow">A FEW THINGS I LIKE TO BUILD <span class="section-index">01 / 03</span></p><h1>Tools for the<br /><span class="serif-italic">server side.</span></h1><p>Most of my projects orbit Discord: bots that keep communities organized, useful, and fun. I also make small web projects and experiments.</p></section>
+      <section class="work-section page-wrap page-section" aria-labelledby="work-title">
+        <div class="section-heading reveal"><div><p class="eyebrow">PROJECT IDEAS & BUILDS</p><h2 id="work-title">Selected work<span class="period">.</span></h2></div><p class="section-aside">Discord bots first. A few other things when inspiration strikes.</p></div>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>04</span></button>
+          <button class="filter-button" type="button" data-filter="discord" aria-pressed="false">Discord bots</button>
+          <button class="filter-button" type="button" data-filter="other" aria-pressed="false">Other</button>
+        </div>
+        <div class="project-grid">
+          <button class="project-card project-card-large reveal" type="button" data-project="modmate" data-category="discord" aria-label="View Modmate project details">
+            <span class="project-visual visual-bot visual-modmate">
+              <span class="bot-window"><span class="bot-window-bar"><i></i><i></i><i></i><b>MODMATE · SERVER TOOLS</b></span><span class="bot-channel"># &nbsp; mod-log</span><span class="bot-message"><b>modmate</b><small>APP &nbsp; 10:42</small><strong>Member timed out</strong><span>Action: 10 minutes · Reason: spam</span></span><span class="bot-message bot-message-alt"><b>modmate</b><small>APP &nbsp; 10:46</small><strong>Weekly server recap</strong><span>3 reports reviewed · all clear ✳</span></span></span>
+              <span class="bot-label"><small>DISCORD BOT CONCEPT 01</small><strong>Calm, clear<br />moderation.</strong></span><span class="visual-caption">AUTOMOD · MOD LOGS · SERVER HEALTH</span>
+            </span>
+            <span class="project-info"><span><strong>Modmate — Community moderation</strong><small>Helpful moderation without the noise.</small></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+            <span class="project-tags"><span>DISCORD BOT</span><span>PYTHON</span><span>MODERATION</span></span>
+          </button>
+          <button class="project-card reveal" type="button" data-project="orbit" data-category="discord" aria-label="View Orbit project details">
+            <span class="project-visual visual-bot visual-orbit">
+              <span class="orbit-badge">orb.</span><span class="orbit-rings"></span><span class="orbit-panel"><small>YOUR SERVER, AT A GLANCE</small><strong>Welcome to<br />the community.</strong><span class="orbit-action">Pick your roles <b>→</b></span><i>updates · guides · good people</i></span><span class="visual-caption">WELCOME FLOWS · SELF-ROLES · SERVER TOOLS</span>
+            </span>
+            <span class="project-info"><span><strong>Orbit — A warmer welcome</strong><small>Onboarding and self-serve server tools.</small></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+            <span class="project-tags"><span>DISCORD BOT</span><span>PYTHON</span><span>ONBOARDING</span></span>
+          </button>
+          <button class="project-card reveal" type="button" data-project="gather" data-category="discord" aria-label="View Gather project details">
+            <span class="project-visual visual-bot visual-gather">
+              <span class="gather-top"><small>GATHER · COMMUNITY EVENTS</small><span>THIS WEEK ↗</span></span><span class="gather-title">Good people.<br /><em>Same time?</em></span><span class="gather-event"><b>FRI</b><strong>Game night</strong><small>8:00 PM · Voice lounge</small><span>Going? &nbsp; <i>↗ 12</i></span></span><span class="visual-caption">EVENT SIGNUPS · REMINDERS · RSVP</span>
+            </span>
+            <span class="project-info"><span><strong>Gather — Make plans together</strong><small>Simple events and RSVP reminders in Discord.</small></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+            <span class="project-tags"><span>DISCORD BOT</span><span>PYTHON</span><span>EVENTS</span></span>
+          </button>
+          <button class="project-card reveal" type="button" data-project="sidequest" data-category="other" aria-label="View Sidequest project details">
+            <span class="project-visual visual-sidequest">
+              <span class="sidequest-mark">s<span>q</span>.</span><span class="sidequest-copy"><small>ONE SMALL THING AT A TIME</small><strong>Follow the<br /><em>side quest.</em></strong><span>tiny tools for curious people ↗</span></span><span class="sidequest-spark">✳</span><span class="visual-caption">WEB EXPERIMENT · IN PROGRESS</span>
+            </span>
+            <span class="project-info"><span><strong>Sidequest — Web experiments</strong><small>A home for small ideas outside Discord.</small></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+            <span class="project-tags"><span>HTML</span><span>CSS</span><span>WEB</span></span>
+          </button>
+        </div>
+        <p class="work-note"><span>↳</span> Bot entries are concept examples. Swap in your real bots, features, and links.</p>
+      </section>
+    </main>
+    <footer class="site-footer"><a class="wordmark" href="../" aria-label="ynprysk home">ynprysk<span>.</span></a><span>MADE WITH CURIOSITY <i>✳</i> © <span class="year"></span></span><div><a href="https://github.com/" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN ↗</a></div></footer>
+    <dialog class="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close project details">×</button><p class="eyebrow" id="dialog-kicker"></p><h2 id="dialog-title"></h2><p class="dialog-description"></p><div class="dialog-tags"></div><button class="dialog-done" type="button">Back to the work <span>↗</span></button><div class="cursor-orb" aria-hidden="true"></div><div class="cursor-dot" aria-hidden="true"></div></dialog>
+    <dialog class="command-dialog" aria-label="Quick navigation">
+      <div class="command-search"><span aria-hidden="true">⌕</span><input type="text" aria-label="Search this portfolio" placeholder="Where would you like to go?" autocomplete="off" /><kbd>ESC</kbd></div>
+      <div class="command-results"><p class="eyebrow">JUMP TO</p><a href="../"><span>Home</span><kbd>01</kbd></a><a href="./"><span>Selected work</span><kbd>02</kbd></a><a href="../about/"><span>About me</span><kbd>03</kbd></a><a href="../contact/"><span>Get in touch</span><kbd>04</kbd></a></div><p class="command-hint">TIP: PRESS <kbd>/</kbd> ANYWHERE TO OPEN QUICK NAV</p><div class="cursor-orb" aria-hidden="true"></div><div class="cursor-dot" aria-hidden="true"></div>
+    </dialog>
+    <div class="cursor-orb" aria-hidden="true"></div><div class="cursor-dot" aria-hidden="true"></div><div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
